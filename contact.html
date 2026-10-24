@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Gulf Atlantic Zone Company Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-brand"><img src="images/logo.png" alt="GAZ" /><span>Gulf Atlantic Zone<small>Company Ltd</small></span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="services.html">Services</a><a href="products.html">Products</a>
+        <a href="blog.html">Insights</a><a href="partnership.html">Partnership</a>
+        <a href="contact.html" class="nav-cta active">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> · Contact</div>
+      <h1>Contact Us</h1>
+      <p>Whether you are a manufacturer, supplier, buyer, or institutional partner—we would be glad to hear from you.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <h3 style="font-size:1.15rem;font-weight:700;color:var(--teal);margin-bottom:20px;">Contact details</h3>
+          <div class="contact-item">
+            <div class="icon">👤</div>
+            <div><strong>Director</strong><span>Mawutor Adzato</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📱</div>
+            <div><strong>WhatsApp / Mobile</strong><a href="https://wa.me/233530904855">+233 53 090 4855</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">✉️</div>
+            <div><strong>Email</strong><a href="mailto:gulfatlanticzone@yahoo.com">gulfatlanticzone@yahoo.com</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div><strong>Address</strong><span>No 10 Guava Lane, Trassaco Springs,<br>Tema, Ghana</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">🏢</div>
+            <div><strong>Registration</strong><span>Reg. No. CS139990923<br>TIN C0063284650</span></div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <h3>Send a message</h3>
+          <p>Tell us about your products or interest and we will respond promptly.</p>
+          <form id="contactForm">
+            <!-- Honeypot -->
+            <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full name *</label>
+                <input type="text" id="name" name="name" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" placeholder="Company name" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required placeholder="you@company.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="+233 ..." />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interest">I am interested in *</label>
+              <select id="interest" name="interest" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="Supplier partnership">Becoming a supplier partner</option>
+                <option value="Sourcing equipment">Sourcing agricultural equipment / inputs</option>
+                <option value="Distribution">Distribution discussion</option>
+                <option value="Investment">Investment / partnership</option>
+                <option value="Other">Other enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Briefly describe your products, market interest, or question..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Enquiry</button>
+            <div id="formStatus" class="form-status"></div>
+            <p style="font-size:12px;color:var(--muted);text-align:center;margin-top:12px;">
+              Or email us directly at <a href="mailto:gulfatlanticzone@yahoo.com" style="color:var(--teal);">gulfatlanticzone@yahoo.com</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div><div class="footer-brand"><img src="images/logo.png" alt="GAZ" /><span>Gulf Atlantic Zone Company Ltd</span></div><p class="footer-about">Bridging modern agricultural technology and indigenous African agriculture.</p></div>
+        <div class="footer-col"><h4>Explore</h4><a href="about.html">About</a><a href="services.html">Services</a><a href="products.html">Products</a><a href="blog.html">Insights</a></div>
+        <div class="footer-col"><h4>Partners</h4><a href="partnership.html">Partnership</a><a href="contact.html">Contact</a></div>
+        <div class="footer-col"><h4>Contact</h4><a href="https://wa.me/233530904855">+233 53 090 4855</a><a href="mailto:gulfatlanticzone@yahoo.com">gulfatlanticzone@yahoo.com</a></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; 2026 Gulf Atlantic Zone Company Ltd.</span><span>Reg. CS139990923 · TIN C0063284650</span></div>
+    </div>
+  </footer>
+  <a href="#" class="back-top" id="backTop">↑</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
